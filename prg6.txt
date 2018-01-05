@@ -1,0 +1,12 @@
+6.Write a C program to convert a string to a long integer.
+
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	long int a;
+	a = atoi("9324");
+	printf("%ld",a); 
+
+	return 0;
+}
